@@ -1,0 +1,33 @@
+.hero {
+    display: flex;
+
+    &__content {
+        padding: 2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex: 0 0 50%;
+        background-image: linear-gradient(rgba($color-bg, .80), rgba($color-bg, .80)) ,url(../assets/img/hero-bg.jpg);
+        background-size: cover;
+        
+    }
+
+    &__heading {
+        font-size: 5rem;
+        font-weight: 800;
+    }
+
+    &__text{
+        font-size: 1.5rem;
+    }
+
+    &__img {
+        display: inline-block;
+        width: 50%;
+    }
+
+    
+
+
+}

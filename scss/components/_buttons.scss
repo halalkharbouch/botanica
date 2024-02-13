@@ -1,0 +1,17 @@
+.btn {
+    font-size: 2rem;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    text-transform: uppercase;
+    
+    padding: 1.5rem 4rem;
+
+    &-primary {
+        background-color: $color-primary;
+    }
+
+    &:hover {
+        background-color: darken($color-primary, 10%);
+    }
+}
