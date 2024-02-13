@@ -2,10 +2,17 @@
     padding: 5rem 10rem;
     padding-bottom: 2rem;
     background-color: $color-tertiary;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
     &__contents {
         display: flex;
         gap: 5rem;
+
+        @media only screen and (max-width: $bp-lg) {
+            gap: 3rem;
+        }
     }
 
     &__content {
@@ -41,6 +48,10 @@
     &__links {
         display: flex;
         gap: 10rem;
+
+        @media only screen and (max-width: $bp-lg) {
+            gap: 5rem;
+        }
     }
 
     &__links-box {

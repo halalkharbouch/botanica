@@ -4,6 +4,10 @@
     flex-direction: row;
     overflow: hidden;
 
+    @media only screen and (max-width: $bp-md) {
+        margin: 5rem 7rem;
+    }
+
     &__content {
         background-color: $color-secondary;
         padding: 7rem;

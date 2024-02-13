@@ -10,12 +10,22 @@
         flex: 0 0 50%;
         background-image: linear-gradient(rgba($color-bg, .80), rgba($color-bg, .80)) , url(../assets/img/hero-bg.jpg);
         background-size: cover;
+
+        @media only screen and (max-width: $bp-md) {
+            text-align: center;
+        }
         
     }
 
     &__heading {
         font-size: 5rem;
         font-weight: 800;
+
+        @media only screen and (max-width: $bp-md) {
+            font-size: 4rem;
+        }
+
+
     }
 
     &__text{
@@ -26,6 +36,7 @@
         display: inline-block;
         width: 50%;
         height: 50rem;
+        object-fit: cover;
     }
 
     
