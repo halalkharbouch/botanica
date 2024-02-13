@@ -1,0 +1,58 @@
+.reviews {
+    margin: 10rem 15rem;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+
+    &__content {
+        background-color: $color-secondary;
+        padding: 7rem;
+        flex: 0 0 60%;
+
+        &__heading {
+            font-size: 3rem;
+            font-weight: 700;
+        }
+
+        &__author {
+            margin-top: 5rem;
+           display: flex;
+           align-items: center;
+           gap: 1rem;
+
+            &__img {
+                
+                height: 6rem;
+                width: 6rem;
+                border-radius: 50%;
+            }
+
+            &__details {
+                &__name {
+                    font-size: 1.5rem;
+                    font-weight: 600;
+                }
+
+                &__address {
+                    margin-top: .3rem;
+                    
+                }
+
+
+            }
+
+            &__rating {
+                font-size: 3.5rem;
+                margin-left: auto;
+                color: #f3d768;
+            }
+        }
+    }
+
+    &__img {
+        height: 50rem;
+        flex: 0 0 40%;
+        object-fit: cover;
+        
+    }
+}

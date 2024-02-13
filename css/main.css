@@ -125,8 +125,18 @@ html {
   font-size: 1.2rem;
   background-color: #99BC85;
   color: #fff;
-  padding: 0.5rem 1rem;
-  border-radius: 200px;
+  height: 1.75rem;
+  width: 1.75rem;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 .nav__active {
   color: #99BC85;
@@ -197,6 +207,64 @@ html {
   display: flex;
   padding: 3rem 6rem;
   gap: 3rem;
+}
+
+.reviews {
+  margin: 10rem 15rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  overflow: hidden;
+}
+.reviews__content {
+  background-color: #BFD8AF;
+  padding: 7rem;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 60%;
+          flex: 0 0 60%;
+}
+.reviews__content__heading {
+  font-size: 3rem;
+  font-weight: 700;
+}
+.reviews__content__author {
+  margin-top: 5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 1rem;
+}
+.reviews__content__author__img {
+  height: 6rem;
+  width: 6rem;
+  border-radius: 50%;
+}
+.reviews__content__author__details__name {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.reviews__content__author__details__address {
+  margin-top: 0.3rem;
+}
+.reviews__content__author__rating {
+  font-size: 3.5rem;
+  margin-left: auto;
+  color: #f3d768;
+}
+.reviews__img {
+  height: 50rem;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 40%;
+          flex: 0 0 40%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .btn {
