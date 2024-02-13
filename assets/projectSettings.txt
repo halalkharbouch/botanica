@@ -1,0 +1,11 @@
+Brand Name: Botaica
+
+Colors:
+    color-primary: #99BC85
+    color-secondary: #BFD8AF
+    color-tertiary: #D4E7C5
+    color-bg: #E1F0DA
+
+
+Fonts: 
+    Inter

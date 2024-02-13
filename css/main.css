@@ -1,0 +1,97 @@
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: #E1F0DA;
+}
+
+html {
+  font-family: "Inter", sans-serif;
+  line-height: 2;
+}
+
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 1.6rem;
+  font-weight: 500;
+  padding: 3rem 10rem;
+  background-color: #D4E7C5;
+}
+.nav__logo-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.nav__logo {
+  height: 3.5rem;
+  width: 3.5rem;
+}
+.nav__logo-text {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+.nav__links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 50%;
+          flex: 0 0 50%;
+  cursor: pointer;
+}
+.nav__link {
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+.nav__link:hover {
+  color: #99BC85;
+}
+.nav__cart-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 0.5rem;
+  cursor: pointer;
+}
+.nav__cart-icon {
+  font-size: 2rem;
+}
+.nav__cart-orders {
+  font-size: 1.2rem;
+  background-color: #99BC85;
+  color: #fff;
+  padding: 0.5rem;
+  border-radius: 60%;
+}
+.nav__active {
+  color: #99BC85;
+}

@@ -1,0 +1,67 @@
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.6rem;
+    font-weight: 500;
+    padding: 3rem 10rem;
+    background-color: $color-tertiary;
+
+    &__logo-box {
+        display: flex;
+        align-items: center;
+        
+    }
+
+    &__logo {
+        height: 3.5rem;
+        width: 3.5rem;
+    }
+
+    &__logo-text {
+        font-size: 2.5rem;
+        font-weight: 700;
+    }
+
+    &__links {
+        display: flex;
+        justify-content: space-between;
+        flex: 0 0 50%;
+        cursor: pointer;
+    }
+
+    &__link {
+        transition: all .2s;
+
+        &:hover {
+            color: $color-primary;
+        }
+    }
+
+    &__cart-box {
+        display: flex;
+        align-items: center;
+        gap: .5rem;
+        cursor: pointer;
+    }
+
+    &__cart-icon {
+        font-size: 2rem;
+    }
+
+    &__cart-text {
+        
+    }
+
+    &__cart-orders {
+        font-size: 1.2rem;
+        background-color: $color-primary;
+        color: #fff;
+        padding: .5rem;
+        border-radius: 60%;
+    }
+
+    &__active {
+        color: $color-primary;
+    }
+}
