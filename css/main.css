@@ -179,6 +179,7 @@ html {
 .hero__img {
   display: inline-block;
   width: 50%;
+  height: 50rem;
 }
 
 .collection {
@@ -230,6 +231,7 @@ html {
 .reviews__content__heading {
   font-size: 3rem;
   font-weight: 700;
+  line-height: 1.2;
 }
 .reviews__content__author {
   margin-top: 5rem;
@@ -259,7 +261,7 @@ html {
   color: #f3d768;
 }
 .reviews__img {
-  height: 50rem;
+  height: 55rem;
   -webkit-box-flex: 0;
       -ms-flex: 0 0 40%;
           flex: 0 0 40%;
@@ -267,6 +269,86 @@ html {
      object-fit: cover;
 }
 
+.cta-shop {
+  margin: 5rem 2rem;
+}
+.cta-shop__header {
+  margin: 3rem 6rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.cta-shop__heading {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+.cta-shop__paragraph {
+  font-size: 1.2rem;
+}
+.cta-shop__btn {
+  font-size: 1.5rem;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+.cta-shop__btn:hover .cta-shop__btn-arr {
+  margin-left: 0.3rem;
+}
+.cta-shop__btn-arr {
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+.cta-shop__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 2rem;
+}
+.cta-shop__card {
+  -ms-flex-preferred-size: 25%;
+      flex-basis: 25%;
+  overflow: hidden;
+}
+.cta-shop__card:hover .cta-shop__card__img {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+.cta-shop__card__img-box {
+  overflow: hidden;
+}
+.cta-shop__card__img {
+  height: 35rem;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  overflow: hidden;
+}
+.cta-shop__card__heading {
+  font-size: 2.5rem;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 2rem;
+}
+.cta-shop__card__heading:hover {
+  cursor: pointer;
+  color: #99BC85;
+}
+
+.cta-blog {
+  margin: 5rem;
+}
 .btn {
   font-size: 2rem;
   border: none;

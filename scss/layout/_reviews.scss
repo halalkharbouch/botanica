@@ -12,6 +12,7 @@
         &__heading {
             font-size: 3rem;
             font-weight: 700;
+            line-height: 1.2;
         }
 
         &__author {
@@ -50,7 +51,7 @@
     }
 
     &__img {
-        height: 50rem;
+        height: 55rem;
         flex: 0 0 40%;
         object-fit: cover;
         
