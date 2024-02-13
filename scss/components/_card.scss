@@ -44,6 +44,11 @@
         margin: 2rem 4rem;
         font-size: 1.7rem;
         font-weight: 700;
+
+        &:hover {
+            color: $color-primary;
+            cursor: pointer;
+        }
     }
 
     &__price {
