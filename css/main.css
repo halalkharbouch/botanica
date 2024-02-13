@@ -22,6 +22,27 @@ html {
   line-height: 2;
 }
 
+.mt-sm {
+  margin-top: 2rem;
+}
+.mt-md {
+  margin-top: 3rem;
+}
+.mt-lg {
+  margin-top: 4rem;
+}
+.mt-xl {
+  margin-top: 5rem;
+}
+.mt-xxl {
+  margin-top: 6rem;
+}
+.mt-xxxl {
+  margin-top: 7rem;
+}
+.mt-xxxxl {
+  margin-top: 8rem;
+}
 .mb-sm {
   margin-bottom: 2rem;
 }
@@ -142,6 +163,34 @@ html {
   width: 50%;
 }
 
+.collection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.collection__heading {
+  font-size: 3rem;
+  font-weight: 600;
+  text-align: center;
+}
+.collection__text {
+  font-size: 2rem;
+  width: 30%;
+  text-align: center;
+  margin: 2rem auto;
+}
+.collection__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 3rem 6rem;
+  gap: 3rem;
+}
+
 .btn {
   font-size: 2rem;
   border: none;
@@ -155,4 +204,64 @@ html {
 }
 .btn:hover {
   background-color: #7daa64;
+}
+
+.card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+.card-25 {
+  width: 25%;
+}
+.card__figure {
+  position: relative;
+  overflow: hidden;
+}
+.card__img {
+  width: 100%;
+}
+.card__read-more {
+  font-size: 1.5rem;
+  font-weight: 600;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: #99BC85;
+  text-align: center;
+  padding: 1rem 0;
+  width: 100%;
+  -webkit-transform: translateY(100%);
+          transform: translateY(100%);
+  opacity: 0;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+.card__heading {
+  margin-top: 2rem;
+  font-size: 1.5rem;
+}
+.card__text {
+  margin: 2rem 4rem;
+  font-size: 1.7rem;
+  font-weight: 700;
+}
+.card__price {
+  font-size: 1.5rem;
+  color: #99BC85;
+  font-weight: 700;
+}
+.card:hover .card__read-more {
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+  opacity: 1;
 }

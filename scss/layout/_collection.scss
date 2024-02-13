@@ -1,0 +1,24 @@
+.collection {
+    display: flex;
+    flex-direction: column;
+    
+
+    &__heading {
+        font-size: 3rem;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    &__text {
+        font-size: 2rem;
+        width: 30%;
+        text-align: center;
+        margin: 2rem auto;
+    }
+
+    &__container {
+        display: flex;
+        padding: 3rem 6rem;
+        gap: 3rem;
+    }
+}
